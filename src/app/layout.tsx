@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTools, faHandshake, faShieldAlt } from '@fortawesome/free-solid-svg-icons';
+import{config} from "@fortawesome/fontawesome-svg-core"
+config.autoAddCss=false;
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
